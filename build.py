@@ -712,7 +712,7 @@ ACADEMIC_HIGHLIGHTS = [
  ("복준혁", "동북재경대학 교수", "Dongbei Univ. of Finance & Economics Professor"),
 ]
 ALUMNI_PHD = [
- ("박채원",2026,"배성주","","","",""),
+ ("박채원",2026,"배성주","","","삼성글로벌리서치","Samsung Global Research"),
  ("박민아",2020,"배성주","","","Oberlin College 조교수","Assistant Professor, Oberlin College"),
  ("김효진",2019,"허대식","","","건국대학교 경영학과 교수","Professor, Konkuk University"),
  ("김수연",2019,"최선미","","","한밭대학교 경영학과 교수","Professor, Hanbat National University"),
@@ -1002,6 +1002,27 @@ METHODS = [
 # 영문은 본인이 쓴 것이 있으면 그것을, 없으면 번역하되 본인 확인을 받는다.
 TESTIMONIALS = [
  dict(
+  name=('박채원', 'Chaewon Park'),
+  meta=('2026년 8월 박사 졸업 &middot; 現 삼성글로벌리서치',
+        'Ph.D. 2026 &middot; now at Samsung Global Research'),
+  # 홈 화면에 짧게 싣는 부분
+  excerpt=[
+   ('저에게 OM은 기술과 조직을 연결해 혁신이 만들어지는 과정을 설계하는 학문이었습니다.',
+    'For me, OM was the discipline of designing how innovation comes about, by connecting technology with organizations.'),
+   ('각자의 배경에서 출발한 질문이 OM 안에서 새로운 전문성으로 이어지길 바랍니다.',
+    'I hope the questions you bring from your own backgrounds grow into new expertise within OM.'),
+  ],
+  # 졸업생 페이지에 싣는 전문
+  letter=[
+   ('안녕하세요. 박채원입니다.',
+    'My name is Chaewon Park.'),
+   ('컴퓨터과학과 산업공학과에서 기술을 개발하고 평가하는 것에서 더 나아가, 신기술이 만들어지는 R&amp;D 조직과 협력 방식에 관심을 갖게 되었습니다. 박사과정에서는 OM의 기술경영 관점에서 조직 간 R&amp;D 협력과 혁신 성과의 메커니즘을 연구했습니다.',
+    'In computer science and industrial engineering I worked on developing and evaluating technologies, and over time I became interested in something beyond that: the R&amp;D organizations where new technologies are made, and the ways they collaborate. In my doctoral studies I took the technology management perspective within OM to study inter-organizational R&amp;D collaboration and the mechanisms behind innovation performance.'),
+   ('저에게 OM은 기술과 조직을 연결해 혁신이 만들어지는 과정을 설계하는 학문이었습니다. 각자의 배경에서 출발한 질문이 OM 안에서 새로운 전문성으로 이어지길 바랍니다.',
+    'For me, OM was the discipline of designing how innovation comes about, by connecting technology with organizations. I hope the questions you bring from your own backgrounds grow into new expertise within OM.'),
+  ],
+ ),
+ dict(
   name=('이청헌', 'Cheongheon Lee'),
   meta=('2022년 2월 석사 졸업 &middot; 現 삼정KPMG',
         'M.S. 2022 &middot; now at KPMG Korea'),
@@ -1022,6 +1043,27 @@ TESTIMONIALS = [
     'I remember the many studies in which fields that look far removed from business research turned out to widen the boundary of OM.'),
    ('앞으로의 OM 신입생분들도 경영학의 지평을 넓히면서 자신만의 경쟁력을 만들고, 나아가 새로운 커리어의 전환점을 맞을 수 있으리라 기대합니다.',
     'I hope the students who come next will widen that horizon too, build something that is theirs alone, and find a turning point in their own careers.'),
+  ],
+ ),
+ dict(
+  name=('Li Jin', 'Li Jin'),
+  meta=('2026년 2월 석사 졸업 &middot; 現 古茗(Good Me)',
+        'M.S. 2026 &middot; now at Good Me (Guming)'),
+  excerpt=[
+   ('2년간의 OM 과정은 특정 직무나 산업의 경계를 넘어 기업을 바라보는 시야를 넓히고, 다양한 관점에서 문제를 고민할 수 있었던 시간이었습니다.',
+    'My two years in OM widened my view of the firm beyond the boundaries of any one job or industry, and gave me time to think through problems from many angles.'),
+   ('앞으로 입학하시는 후배분들도 다양한 수업과 경험을 통해 자신의 관심 분야를 찾아가고, 본인만의 커리어 방향을 만들어가실 수 있기를 바랍니다.',
+    'I hope the students who come next will also find their own interests through the many courses and experiences here, and shape a career direction of their own.'),
+  ],
+  letter=[
+   ('안녕하세요, Li Jin입니다.',
+    'My name is Li Jin.'),
+   ('저는 중국 절강대학교에서 회계학을 전공한 후, OM 석사과정을 통해 구매, 물류, SCM, 전략, 기술경영, 인적자원 등 기업 운영과 관련된 다양한 분야를 폭넓게 접할 수 있었습니다. 2년간의 OM 과정은 특정 직무나 산업의 경계를 넘어 기업을 바라보는 시야를 넓히고, 다양한 관점에서 문제를 고민할 수 있었던 시간이었습니다.',
+    "I majored in accounting at Zhejiang University in China. Through the OM master's program I was exposed to a wide range of fields involved in running a firm: purchasing, logistics, SCM, strategy, technology management, and human resources. My two years in OM widened my view of the firm beyond the boundaries of any one job or industry, and gave me time to think through problems from many angles."),
+   ('현재는 음료 업계에서 Management Trainee로 입사하여 전략 부서와 SCM부서에서 물류 프로세스 설계 및 운영 효율화와 관련된 업무를 지원하고 있습니다.',
+    'I joined a beverage company as a Management Trainee, and I now support work on logistics process design and operational efficiency in its strategy and SCM departments.'),
+   ('앞으로 입학하시는 후배분들도 다양한 수업과 경험을 통해 자신의 관심 분야를 찾아가고, 본인만의 커리어 방향을 만들어가실 수 있기를 바랍니다.',
+    'I hope the students who come next will also find their own interests through the many courses and experiences here, and shape a career direction of their own.'),
   ],
  ),
 ]
